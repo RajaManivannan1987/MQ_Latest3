@@ -1,0 +1,104 @@
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="38dp"
+                android:src="@drawable/category_icon" />
+
+            <TextView
+                android:id="@+id/sourceIncomeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginTop="10dp"
+                android:text="Select category"
+                android:textSize="15sp"
+
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/homeloan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/homeloan"
+                android:layout_weight="1"
+
+
+                />
+
+            <ImageView
+                android:id="@+id/educationloan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/eduloan" />
+
+            <ImageView
+                android:id="@+id/personalloan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/personalloan" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/autoloan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/autoloan" />
+
+            <ImageView
+                android:id="@+id/others"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/others" />
+
+
+        </LinearLayout>
+
+        Property type ?
+
+       home or land -- radio
+        is loan availed?
+         yes or no -- radio
+         if yes ->
+         property name field
+         prop worth field
+         emi field(in months)
+         if no->
+          property name field
+           prop worth field

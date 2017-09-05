@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/passcode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_20sdp"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/passcode_finger_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="30dp"
+        android:paddingTop="2dp"
+        android:src="@drawable/finger"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/passcode_or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:gravity="center"
+        android:text="or"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_19sdp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/passcode_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/passcode_code"
+            style="@style/editTextStyle"
+            android:background="@drawable/edittext_background"
+            android:gravity="center"
+            android:hint="Enter 4 Digit Passcode"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/passcode_confirm_code"
+            style="@style/editTextStyle"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/edittext_background"
+            android:gravity="center"
+            android:hint="Confirm Passcode"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:padding="@dimen/_10sdp"
+            android:text=""
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/passcode_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:minHeight="@dimen/_37sdp"
+                android:text="Cancel"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_14sdp" />
+
+            <Button
+                android:id="@+id/passcode_submit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:minHeight="@dimen/_37sdp"
+                android:text="Submit"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_14sdp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

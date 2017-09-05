@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "8459779954",
+    "project_id": "money-quotient-v2"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8459779954:android:cce74eeafe9d8295",
+        "android_client_info": {
+          "package_name": "com.moneyquotient.in.in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8459779954-egqkov01gcspu32jkcjc80b76jtrnva1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "8459779954-7gt2tostsu61cro2eeup34t6aokts5hi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moneyquotient.in.in",
+            "certificate_hash": "bae05be609df684f16e901c041fe4641e50029b7"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpWfwNmM00Ty85z8wygsTtBGcjJLrpF8c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-69363619-4"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8459779954:android:bd6fc60cc49700c7",
+        "android_client_info": {
+          "package_name": "com.im026.imaginet.moneybizfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8459779954-egqkov01gcspu32jkcjc80b76jtrnva1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "8459779954-ntgg0enjljsfsh3qfnj1loinqqlckigg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.im026.imaginet.moneybizfinal",
+            "certificate_hash": "c1654f90bcca36efa5f57aaa3c19c02f4d012f28"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpWfwNmM00Ty85z8wygsTtBGcjJLrpF8c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-69363619-5"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8459779954:android:484bf30985ad4502",
+        "android_client_info": {
+          "package_name": "com.im026.imaginet.moneyquotientv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8459779954-rl4spfdsg7rijl68stgnl9legqc0mq6m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.im026.imaginet.moneyquotientv2",
+            "certificate_hash": "d3ac822cd7f04e9692e61a292d26d424ef781449"
+          }
+        },
+        {
+          "client_id": "8459779954-egqkov01gcspu32jkcjc80b76jtrnva1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpWfwNmM00Ty85z8wygsTtBGcjJLrpF8c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-69363619-6"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

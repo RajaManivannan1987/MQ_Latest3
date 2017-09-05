@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MQ_Latest3.iml" filepath="$PROJECT_DIR$/MQ_Latest3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yodlee_lib/yodlee_lib.iml" filepath="$PROJECT_DIR$/yodlee_lib/yodlee_lib.iml" />
+    </modules>
+  </component>
+</project>

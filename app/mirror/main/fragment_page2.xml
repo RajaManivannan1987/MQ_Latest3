@@ -1,0 +1,16 @@
+<!-- [ Mirror metadata ] generatedAt: 1475673691200 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/fragment_page2">
+        <!-- ImageView Examples:
+        <realestate src="@drawable/image_resource" />
+        <realestate src="relative_path/image.jpg" /> -->
+        <realestate />
+        <goldjewels />
+        <fixeddeposits />
+    </_content>
+</screen>

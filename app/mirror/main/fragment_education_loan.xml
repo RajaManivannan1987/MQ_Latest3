@@ -1,0 +1,19 @@
+<!-- [ Mirror metadata ] generatedAt: 1475673691185 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/fragment_education_loan">
+        <!-- ImageView Examples:
+        <cashInflowSalLab11 src="@drawable/image_resource" />
+        <cashInflowSalLab11 src="relative_path/image.jpg" /> -->
+        <cashInflowSalLab11 />
+        <cashInflowSalLab231 />
+        <cashInflowSalLab />
+        <cashInflowSalLab23 />
+        <cashInflowSalLab1 />
+        <cashInflowSalLab132 />
+    </_content>
+</screen>

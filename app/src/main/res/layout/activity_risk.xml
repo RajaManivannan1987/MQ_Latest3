@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/submit"
+        android:padding="@dimen/_5sdp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical"
+                android:text="Attitude towards risk"
+                android:textColor="@android:color/black"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ques1"
+                    android:textColor="@android:color/black"
+                    android:typeface="serif" />
+
+                <RadioGroup
+                    android:id="@+id/optionsQ1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/q1A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="35 years or under"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q1B"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="36-44"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q1C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="45-54"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q1D"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="55 or above"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ques2"
+                    android:textColor="@android:color/black"
+                    android:typeface="serif" />
+
+                <RadioGroup
+                    android:id="@+id/optionsQ2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/q2A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="Buying a house"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q2B"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="Paying for a college education"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q2C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="Capitalizing a new business"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q2D"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="Providing for retirement"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ques3"
+                    android:textColor="@android:color/black"
+                    android:typeface="serif" />
+
+                <RadioGroup
+                    android:id="@+id/optionsQ3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/q3A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="At any time now...so a high level of liquidity is important"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q3B"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="Probably in the future...2-5 years from now"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q3C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="In 6-10 years"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q3D"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="Probably in 11-20 or more years from now"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ques4"
+                    android:textColor="@android:color/black"
+                    android:typeface="serif" />
+
+                <RadioGroup
+                    android:id="@+id/optionsQ4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/q4A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="  Grow moderately "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q4B"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text=" Grow substantially "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q4C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text="Decrease moderately "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q4D"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:text=" Decrease substantially"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ques5"
+                    android:textColor="@android:color/black"
+                    android:typeface="serif" />
+
+                <RadioGroup
+                    android:id="@+id/optionsQ5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/q5A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text=" Sell the investment so you will not have to worry if it continues to decline "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q5B"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="Hold on to it and wait for it to climb back up "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q5C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="Buy more of the same investment...because at the current lower price, it looks even better than when you bought it "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ques6"
+                    android:textColor="@android:color/black"
+                    android:typeface="serif" />
+
+                <RadioGroup
+                    android:id="@+id/optionsQ6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/q6A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text=" You would go for maximum diversity, dividing your portfolio among all available investments, including those ranging from highest return/greatest risk to lowest return/lowest risk  "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q6B"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="You are concerned about too much diversification, so you would divide your portfolio among two investments with historically high rates of return and moderate risk  "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q6C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="You would put your investment dollars in the investment with the highest rate of return and most risk"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ques7"
+                    android:textColor="@android:color/black"
+                    android:typeface="serif" />
+
+                <RadioGroup
+                    android:id="@+id/optionsQ7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/q7A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="Companies that may make significant technological advances that are still selling at their low initial offering price  "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q7B"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="Established, well-known companies that have a potential for continued growth "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q7C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="'Blue chip' stocks that pay dividends"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ques8"
+                    android:textColor="@android:color/black"
+                    android:typeface="serif" />
+
+                <RadioGroup
+                    android:id="@+id/optionsQ8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/q8A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="A high-yield (junk) bond that pays a higher interest rate than the other two bonds, but also gives you the least sense of security with regard to a possible default "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q8B"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="The bond of a well-established company that pays a rate of interest somewhere between the other two bonds "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q8C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="A tax-free bond, since minimizing taxes is your primary investment objective"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ques9"
+                    android:textColor="@android:color/black"
+                    android:typeface="serif" />
+
+                <RadioGroup
+                    android:id="@+id/optionsQ9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/q9A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text=" Ignore the advice and hold on to the bonds "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q9B"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="Sell the bonds, putting half the proceeds in 'hard' assets and the other half in money market funds "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q9C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="Sell the bonds and put all the proceeds in 'hard' assets "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q9D"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="Sell the bonds, put the proceeds in 'hard' assets, and borrow additional money so you can buy even more 'hard' assets"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ques10"
+                    android:textColor="@android:color/black"
+                    android:typeface="serif" />
+
+                <RadioGroup
+                    android:id="@+id/optionsQ10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/q10A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="The $10,000 -- you take the money and run "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q10B"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="A 50 percent chance of winning $50,000 "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q10C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text=" A 20 percent chance of winning $75,000 "
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/q10D"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/hint_color"
+                        android:gravity="top"
+                        android:text="A 5 percent chance of winning $100,000"
+                        android:textColor="#808080"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:typeface="serif"></RadioButton>
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/button_color"
+        android:gravity="center"
+        android:text="SUBMIT"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

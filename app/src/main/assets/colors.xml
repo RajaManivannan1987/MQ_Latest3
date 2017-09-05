@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#eeeeee</color>
+    <color name="colorAccent">#969696</color>-->
+    <color name="text">#000000</color>
+    <color name="background">#F5F5F5</color>
+    <color name="dark_gray">#EBEBEB</color>
+    <color name="button">#6e6861</color>
+
+    <color name="blue">#00abea</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#212121</color>
+    <color name="grey">#424242</color>
+    <color name="white_overlay_8x">#000000</color>
+
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="colorAccent">#263238</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="icon_grey">#424242</color>
+    <color name="indigo">#283593</color>
+    <color name="blue1">#1565C0</color>
+    <color name="teal">#004D40</color>
+    <color name="orange">#E65100</color>
+    <color name="violet">#6200EA</color>
+    <color name="cyan">#006064</color>
+    <color name="green">#8BC34A</color>
+
+
+</resources>

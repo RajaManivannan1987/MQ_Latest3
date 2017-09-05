@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passcode Lock"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_14sdp" />
+
+        <Switch
+            android:id="@+id/security_passcode"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:layout_alignParentRight="true"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/hint_color"></View>
+
+    <TextView
+        android:id="@+id/changePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:enabled="false"
+        android:text="Change Password"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/button_color"
+        android:padding="@dimen/_8sdp"
+        android:text="If you forgot your passcode , you will need to delete and reinstall Money Quotient . Once reinstalled , you have to login again"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_12sdp" />
+
+</LinearLayout>

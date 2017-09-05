@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#315673</color>
+    <color name="colorPrimaryDark">#25435b</color>
+    <color name="colorAccent">#25435b</color>
+    <color name="background">#fbfbfb</color>
+    <color name="white">#ffffff</color>
+    <color name="text_color">#365c7a</color>
+    <color name="button_color">#025fa1</color>
+    <color name="hint_color">#b8bdc1</color>
+    <color name="orange">#ed8c2b</color>
+    <color name="green">#87a821</color>
+    <color name="red">#f41414</color>
+    <color name="background_calculator">#ececec</color>
+    <color name="background_calculator_textview">#cccccc</color>
+
+    //by raja
+    <color name="blue">#6495ed</color>
+    <color name="tabindicatercolor">#020B26</color>
+    <color name="chartbackground">#305673</color>
+    <color name="trans">#00000000</color>
+    <color name="textcolor">#d6c469</color>
+</resources>

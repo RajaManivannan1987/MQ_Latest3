@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:background="@color/chartbackground" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_8sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Enter Your Scheme ID"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/_14sdp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@drawable/edittext_background"
+                            android:minHeight="@dimen/_35sdp">
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#00000000"
+                                android:maxLines="1"
+                                android:minHeight="@dimen/_35sdp"
+                                android:paddingLeft="@dimen/_5sdp"
+                                android:text="" />
+
+                            <ImageView
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:layout_alignParentRight="true"
+                                android:background="@color/hint_color"
+                                android:padding="@dimen/_3sdp"
+                                android:src="@android:drawable/ic_menu_search" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@color/hint_color" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_8sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Select/Enter Mutulal Fund House"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/_14sdp" />
+
+                        <com.moneyquotient.in.in.common.CustomAutoCompleteView
+                            android:id="@+id/myautocomplete"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@drawable/edittext_background"
+                            android:completionThreshold="1"
+                            android:maxLines="1"
+                            android:minHeight="@dimen/_35sdp"
+                            android:paddingLeft="@dimen/_5sdp"></com.moneyquotient.in.in.common.CustomAutoCompleteView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_8sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Open/Close/Intervel"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/_14sdp" />
+
+                        <com.moneyquotient.in.in.common.CustomAutoCompleteView
+                            android:id="@+id/intervelAutoCompleteTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@drawable/edittext_background"
+                            android:completionThreshold="1"
+                            android:maxLines="1"
+                            android:minHeight="@dimen/_35sdp"
+                            android:paddingLeft="@dimen/_5sdp"></com.moneyquotient.in.in.common.CustomAutoCompleteView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_8sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Enter Scheme"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/_14sdp" />
+
+                        <com.moneyquotient.in.in.common.CustomAutoCompleteView
+                            android:id="@+id/schemeAutoCompleteTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@drawable/edittext_background"
+                            android:completionThreshold="1"
+                            android:maxLines="1"
+                            android:minHeight="@dimen/_35sdp"
+                            android:paddingLeft="@dimen/_5sdp"></com.moneyquotient.in.in.common.CustomAutoCompleteView>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/getNAVButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:background="#5ca47a"
+                        android:minHeight="@dimen/_35sdp"
+                        android:text="Get NAV"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_20sdp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/schemeHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_37sdp"
+                    android:background="@color/chartbackground"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:padding="@dimen/_2sdp">
+
+                    <TextView
+                        android:id="@+id/schemeIdText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Scheme \nId"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/schemeNameText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.2"
+                        android:gravity="center"
+                        android:text="Scheme \nName"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="NAV"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Bought"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Total"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/mutualfunds_recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+</LinearLayout>
